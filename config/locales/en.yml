@@ -2,6 +2,7 @@ en:
   footer:
     about: "About"
     contact: "Contact"
+    RoR: "Ruby on Rails Tutorial"
   header:
     home: "Home"
     help: "Help"
@@ -43,3 +44,12 @@ en:
   helpers:
     application_helper:
       base_title: "Ruby on Rails Tutorial Sample App"
+  controller:
+    users:
+      Welcome: "Welcome to the Sample App!"
+  error_message:
+    The_form_contains: "The form contains"
+  users:
+    new:
+      Sign_up: "Sign up"
+
