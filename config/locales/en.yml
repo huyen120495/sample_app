@@ -1,9 +1,11 @@
 en:
-  footer:
+  _footer:
     about: "About"
     contact: "Contact"
+    news: "News"
     RoR: "Ruby on Rails Tutorial"
-  header:
+  _header:
+    title: "sample app"
     home: "Home"
     help: "Help"
     log_in: "Log in"
@@ -12,6 +14,11 @@ en:
     RoR: "Ruby on Rails Tutorial"
     michael_hartl: "Michael Hartl"
     news: "News"
+    users: "Users"
+    Account: "Account"
+    Profile: "Profile"
+    Settings: "Settings"
+    Log_out: "Log out"
   static_pages:
     about:
       title: "About"
@@ -41,15 +48,24 @@ en:
       Welcome_to_the_Sample_App: "Welcome to the Sample App"
       This_is_the_home_page_for_the: "This is the home page for the"
       sample_application.: "sample application."
+      Sign_up_now: "Sign up now!"
   helpers:
     application_helper:
       base_title: "Ruby on Rails Tutorial Sample App"
-  controller:
-    users:
-      Welcome: "Welcome to the Sample App!"
-  error_message:
-    The_form_contains: "The form contains"
+  shared:
+    _error_message:
+      The_form_contains: "The form contains"
   users:
     new:
       Sign_up: "Sign up"
-
+      Create_my_account: "Create my account"
+    create:
+      Welcome: "Welcome to the Sample App!"
+      Invalid: "Invalid email/password combination"
+  sessions:
+    new:
+      title: "Log in"
+      Sign_up_now: "Sign up now!"
+      New_user: "New user?"
+    create:
+      Invalid: "Invalid email/password combination"
