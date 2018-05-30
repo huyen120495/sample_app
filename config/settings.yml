@@ -2,3 +2,5 @@ name_length_max: 50
 email_length_max: 255
 password_length_min: 6
 gravatar_url_size: 80
+gravatar_for_size: 50
+per_page_size: 5

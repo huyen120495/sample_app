@@ -13,12 +13,12 @@
 
       <%= f.label :remember_me, class: "checkbox inline" do %>
         <%= f.check_box :remember_me %>
-        <span><%= t ".Remember" %></span>
+        <span><%= t ".remember" %></span>
       <% end %>
 
       <%= f.submit t(".title"), class: "btn btn-primary" %>
     <% end %>
 
-    <p><%= t ".New_user" %> <%= link_to t(".Sign_up_now"), signup_path %></p>
+    <p><%= t ".new" %> <%= link_to t(".signup"), signup_path %></p>
   </div>
 </div>
